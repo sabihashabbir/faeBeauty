@@ -1,0 +1,11 @@
+.btn-hotpink {
+  background-color: hotpink;
+  color: white;
+  border: none;
+}
+
+.btn-hotpink:hover {
+  background-color: white;
+  color: hotpink;
+  border: 1px solid hotpink;
+}
