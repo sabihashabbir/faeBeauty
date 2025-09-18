@@ -1,8 +1,8 @@
 import './App.css'
-import Header from './components/header'
-import Slider from './components/slider'
-import Product from './components/products'
-import Footer from './components/footer'
+import Header from './components/Header'
+import Slider from './components/Slider'
+
+import Footer from './components/Footer'
 import Contact from './pages/Contact'
 import Explore from './pages/Explore'
 import Products from './pages/Products'
@@ -33,7 +33,7 @@ function App() {
                 element={
                   <>
                     <Slider />
-                    <Product />
+                    <Products />
                   </>
                 }
               />
